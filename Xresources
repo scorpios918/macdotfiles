@@ -1,0 +1,63 @@
+! special
+*.foreground:   #eeebfc
+*.background:   #202020
+*.cursorColor:  #fe2612
+
+! black
+*.color0:       #202020
+*.color8:       #202020
+
+! white 
+*.color1:       #eeebfc
+*.color9:      #e2ccc5
+
+! red
+*.color2:       #fe2612
+*.color10:       #FE3603
+
+! yellow
+*.color3:       #FEFA1E
+*.color11:      #FDC125
+
+! blue 
+*.color4:       #204a87
+*.color12:      #002277
+
+! magenta
+*.color5:       #ce5c00
+*.color13:      #f57900
+
+! cyan
+*.color6:       #89b6e2
+*.color14:      #46a4ff
+
+! white again
+*.color7:       #eeebfc
+*.color15:      #E2CCC5
+
+! URxvt
+URxvt*saveline: 15000
+URxvt*termName: rxvt-256color
+URxvt*iso14755: false
+URxvt*depth: 32
+URxvt*background: #141516
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+URxvt*internalBorder: 10
+URxvt*externalBorder: 0
+URxvt*letterSpace: -1
+URxvt.font: xft:Iosevka Term:size=14
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.m-c: perl:clipboard:copy
+URxvt.keysym.m-v: perl:clipboard:paste
+URxvt.urlLauncher: exo-open
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.geometry: 90x34
+URxvt.tabbed.tabbar-fg: 4
+URxvt.tabbed.tabbar-bg: 16
+URxvt.tabbed.tab-fg: 15
+URxvt.tabbed.tab-bg: 4
+URxvt*buffered: false
